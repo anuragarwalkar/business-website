@@ -24,7 +24,7 @@ body{
     padding: 1rem;
     justify-content: space-between;
     display: flex;
-    background:#333;
+    background-color:#333;
     color: #fff;
     position: sticky;
     top: 0;
@@ -180,5 +180,42 @@ body{
 }
 
 
+#contact{
+    display: flex;
+    background: #7ab436;
+}
 
+#contact .contact-form {
+    flex: 1;
+    padding: 3rem;
+    color: #fff
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group, input, textarea {
+    width: 100%;
+    padding: 0.3rem;
+}
+
+#contact .map {
+    flex: 3;
+}
+
+.btn-dark{
+    display: block;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+}
+
+#footer{
+    padding: 2rem;
+    background: #333;
+    color: #fff;
+}
 
