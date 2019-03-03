@@ -146,7 +146,7 @@ body{
 #who .who-text{
     padding: 2rem;
     color: #fff;
-    width: 200px;
+    /* width: 200px; */
     flex: 1;
 }
 
@@ -201,7 +201,7 @@ body{
 }
 
 #contact .map {
-    flex: 3;
+    flex: 1;
 }
 
 .btn-dark{
